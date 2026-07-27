@@ -1,0 +1,18 @@
+{
+  "id": "riverside-plaza",
+  "name": "Riverside Plaza Apartments",
+  "propertyType": "Multifamily",
+  "location": "Charlotte, NC",
+  "source": "mock",
+  "inputs": {
+    "propertyValue": 25000000,
+    "noi": 1800000,
+    "loanRequested": 17000000,
+    "amortYears": 30,
+    "ioMonths": 24,
+    "spreadBps": 210,
+    "minDSCR": 1.25,
+    "maxLTV": 65,
+    "minDY": 8.0
+  }
+}

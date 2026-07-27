@@ -1,0 +1,18 @@
+{
+  "id": "meridian-retail",
+  "name": "Meridian Square Retail Center",
+  "propertyType": "Retail",
+  "location": "Plano, TX",
+  "source": "mock",
+  "inputs": {
+    "propertyValue": 8500000,
+    "noi": 640000,
+    "loanRequested": 5800000,
+    "amortYears": 25,
+    "ioMonths": 0,
+    "spreadBps": 230,
+    "minDSCR": 1.35,
+    "maxLTV": 60,
+    "minDY": 9.0
+  }
+}

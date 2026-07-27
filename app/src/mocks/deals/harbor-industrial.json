@@ -1,0 +1,18 @@
+{
+  "id": "harbor-industrial",
+  "name": "Harbor Point Industrial Park",
+  "propertyType": "Industrial",
+  "location": "Savannah, GA",
+  "source": "mock",
+  "inputs": {
+    "propertyValue": 14000000,
+    "noi": 980000,
+    "loanRequested": 9500000,
+    "amortYears": 25,
+    "ioMonths": 12,
+    "spreadBps": 185,
+    "minDSCR": 1.3,
+    "maxLTV": 60,
+    "minDY": 8.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "summit-office",
+  "name": "Summit Corporate Center",
+  "propertyType": "Office",
+  "location": "Denver, CO",
+  "source": "mock",
+  "inputs": {
+    "propertyValue": 19000000,
+    "noi": 1350000,
+    "loanRequested": 10500000,
+    "amortYears": 25,
+    "ioMonths": 6,
+    "spreadBps": 260,
+    "minDSCR": 1.4,
+    "maxLTV": 55,
+    "minDY": 9.5
+  }
+}
