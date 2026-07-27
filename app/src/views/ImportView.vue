@@ -9,6 +9,7 @@ import { useDealsStore } from '../stores/deals'
 
 const router = useRouter()
 const store = useDealsStore()
+const sampleDealBase = import.meta.env.BASE_URL
 
 const excelInput = ref<HTMLInputElement | null>(null)
 const excelError = ref<string | null>(null)
@@ -106,7 +107,7 @@ async function connectGoogleSheet() {
       <h4 style="margin: 0">Import a Deal</h4>
       <p class="card-body" style="margin: 0">
         Bring in a deal from your own Excel workbook or a connected Google Sheet.
-        <a href="/sample-deal.xlsx" download>Download a sample workbook</a> to see the expected layout, or to try
+        <a :href="`${sampleDealBase}sample-deal.xlsx`" download>Download a sample workbook</a> to see the expected layout, or to try
         the upload yourself.
       </p>
       <div style="display: flex; gap: 10px; flex-wrap: wrap">
